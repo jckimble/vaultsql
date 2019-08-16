@@ -1,7 +1,7 @@
 # VaultSQL
 [![pipeline status](https://gitlab.com/jckimble/vaultsql/badges/master/pipeline.svg)](https://gitlab.com/jckimble/vaultsql/commits/master)
 
-VaultSQL is a sql driver for easily supporting hashicorp vault database secrets without having to use sidecar containers
+VaultSQL is a sql driver for easily supporting Hashicorp vault database secrets without having to use sidecar containers
 
 ---
 * [Install](#install)
@@ -17,10 +17,10 @@ go get -u gitlab.com/jckimble/vaultsql
 ```
 
 ## Configuration
-Uses all enviroment variables hashicorp vault uses along with `VAULT_SECRET_PATH` to set the database credentials path. 
+Uses all environment variables Hashicorp Vault uses along with `VAULT_SECRET_PATH` to set the database credentials path. 
 
 ## Usage
-VaultSQL discovers any loaded driver then wraps it, making it easy to use for any driver that hashicorp vault supports
+VaultSQL discovers any loaded driver then wraps it, making it easy to use for any driver that Hashicorp Vault supports
 ```go
 package main
 
@@ -43,7 +43,7 @@ func main() {
 
 ## License
 
-Copyright 2018 James Kimble
+Copyright 2019 James Kimble
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
