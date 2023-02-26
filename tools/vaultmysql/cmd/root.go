@@ -20,7 +20,7 @@ import (
 
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
-	_ "gitlab.com/jckimble/vaultsql"
+	_ "github.com/jckimble/vaultsql"
 
 	"github.com/spf13/cobra"
 

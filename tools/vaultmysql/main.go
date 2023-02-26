@@ -14,7 +14,7 @@
 
 package main
 
-import "gitlab.com/jckimble/vaultsql/tools/vaultmysql/cmd"
+import "github.com/jckimble/vaultsql/tools/vaultmysql/cmd"
 
 func main() {
 	cmd.Execute()

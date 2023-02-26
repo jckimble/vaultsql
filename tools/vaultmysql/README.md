@@ -12,7 +12,7 @@ VaultMySQL is a tool for accessing mysql databases that use Vault database secre
 
 ## Install
 ```sh
-go get -u gitlab.com/jckimble/vaultsql/tools/vaultmysql
+go get -u github.com/jckimble/vaultsql/tools/vaultmysql
 ```
 
 ## Configuration

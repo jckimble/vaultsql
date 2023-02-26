@@ -1,5 +1,5 @@
 # VaultSQL
-[![pipeline status](https://gitlab.com/jckimble/vaultsql/badges/master/pipeline.svg)](https://gitlab.com/jckimble/vaultsql/commits/master)
+![build status](https://github.com/jckimble/vaultsql/actions/workflows/build.yml/badge.svg?branch=master)
 
 VaultSQL is a sql driver for easily supporting Hashicorp vault database secrets without having to use sidecar containers
 
@@ -13,7 +13,7 @@ VaultSQL is a sql driver for easily supporting Hashicorp vault database secrets 
 
 ## Install
 ```sh
-go get -u gitlab.com/jckimble/vaultsql
+go get -u github.com/jckimble/vaultsql
 ```
 
 ## Configuration
@@ -27,7 +27,7 @@ package main
 import (
 	"database/sql"
 	_ "github.com/go-sql-driver/mysql"
-	_ "gitlab.com/jckimble/vaultsql"
+	_ "github.com/jckimble/vaultsql"
 	"log"
 	"time"
 )

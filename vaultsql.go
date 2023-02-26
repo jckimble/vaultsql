@@ -1,7 +1,6 @@
 // Package vaultsql provides a sql driver for easily supporting hashicorp vault database secrets without having to use sidecar containers
 //
 // The driver should be used via the database/sql package along with a vault supported driver
-//
 package vaultsql
 
 import (
