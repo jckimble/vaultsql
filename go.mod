@@ -6,7 +6,7 @@ require (
 	github.com/abiosoft/readline v0.0.0-20180607040430-155bce2042db
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/hashicorp/vault/api v1.10.0
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 )
 
 require (
