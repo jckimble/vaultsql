@@ -4,12 +4,13 @@ go 1.20
 
 require (
 	github.com/abiosoft/readline v0.0.0-20180607040430-155bce2042db
-	github.com/go-sql-driver/mysql v1.7.1
+	github.com/go-sql-driver/mysql v1.8.1
 	github.com/hashicorp/vault/api v1.10.0
 	github.com/spf13/cobra v1.8.0
 )
 
 require (
+	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/cenkalti/backoff/v3 v3.0.0 // indirect
 	github.com/chzyer/test v1.0.0 // indirect
 	github.com/go-jose/go-jose/v3 v3.0.3 // indirect
